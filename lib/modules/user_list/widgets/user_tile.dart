@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class UserTile extends StatelessWidget {
-  const UserTile({super.key, required this.name});
+  const UserTile({super.key, required this.name, required this.email});
   final String name;
+  final String email;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class UserTile extends StatelessWidget {
         width: 40,
       ),
       title: Text(name, style: titleStyle),
-      subtitle: Text("it subtitle", style: subtitleStyle),
+      subtitle: Text(email, style: subtitleStyle),
       trailing: const Icon(Icons.abc_sharp),
       onTap: () => Navigator.of(context).pushNamed(
         "/user",

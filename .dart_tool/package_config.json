@@ -194,13 +194,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "gh_users_list",
+      "name": "flutter_application",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-17T17:44:40.115433Z",
+  "generated": "2023-07-18T18:07:18.496105Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }
